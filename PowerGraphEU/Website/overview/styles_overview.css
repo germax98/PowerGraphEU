@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0px;
+    margin:0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+#Logo{
+    height:70%;
+    margin-left: 3rem;
+}
+p{
+    font-family:'Roboto', sans-serif;
+    font-size: large;
+    display: inline-block;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: larg;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h2{
+    display: grid;
+    place-content: center;
+    font-family: 'Poppins', sans-serif ;
+    font-size: 5rem;
+}
+
+nav{
+    
+    height: 10vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns:  100%;
+    
+}
+ul{
+   
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+li{
+    font-family:'Roboto', sans-serif;
+    display: inline;
+    margin-right: 1rem;
+}
+nav a {
+    color: #000000;
+    margin-right:150px;
+    font-size: 35px;
+    height: 100%;
+    
+}
+.grid-container{
+    display: grid;
+    height: 89vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100% 100%;
+    gap: 5px;
+}
+.green-energy{
+    display: grid;
+    place-content: center;
+    height: 100%;
+    width: 100%;
+    background-image: url('images/Rechteck\ 8.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.fossil-energy{
+    display: grid;
+    place-content: center;
+    height: 100%;
+    width: 100%;
+    background-image: url('images/Rechteck\ 9.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.cart{
+    display: grid;
+    place-content: center;
+    height: 300px;
+    width: 100%;
+    
+    border-radius: 10%;
+}
+#green{
+    
+    backdrop-filter: blur(30px);
+    background-color: rgba(0, 0, 0, 0.021);
+    color: rgba(0, 0, 0, 0.928);
+}
+#fossil{
+    
+    backdrop-filter: blur(14px);
+    background-color: rgba(192, 157, 17, 0.2);
+    color: rgba(252, 252, 252, 0.928);
+}
+
