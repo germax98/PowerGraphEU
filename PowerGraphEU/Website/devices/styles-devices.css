@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0px;
+    margin:0px;
+    
+}
+body {
+    height: 100vh;
+    text-decoration: none;
+    list-style-type: none;
+    background-image: url('images/AdobeStock_350898427.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+p{
+    font-family:'Roboto', sans-serif;
+    font-size: 40px;
+    display: inline-block;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+
+nav{
+    
+    height: 10vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns:  100%;
+    
+}
+ul{
+   
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+li{
+    font-family:'Roboto', sans-serif;
+    display: inline;
+    margin-right: 1rem;
+}
+nav a {
+    color: #000000;
+    margin-right:150px;
+    font-size: 35px;
+    height: 100%;
+    
+}
+html, body {
+    min-height: 100%;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 40%;
+    margin:40px 60px;
+}
+.cards{
+    display: grid;
+    margin: 20px 60px;
+    
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 600px);
+    gap: 1%;
+    
+}
+
+.Card1{
+    
+    min-height: 100%;
+    min-width: 100%;
+    
+    background-image: url('images/Rechteck\ 11.png');
+    background-size: 100%;
+}
+.Card2{
+    
+    min-height: 100%;
+    min-width: 100%;
+    
+    background-image: url('images/Rechteck\ 13.png');
+    background-size: 100%;
+}
+.Card3{
+    
+    min-height: 100%;
+    min-width: 100%;
+    
+    background-image: url('images/Rechteck\ 14.png');
+    background-size: 100%;
+}
+.Card4{
+    
+    min-height: 100%;
+    min-width: 100%;
+    background-color: white;
+    background-image: url('images/outline_add_black_48dp.png');
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center;
+    display: grid;
+    place-items: end center;
+    
+}
+.Card4 h1{
+    margin-bottom: 2rem;
+    font-size: 30px;
+}
+.inhalt{
+    font-size: 10px;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    backdrop-filter: blur(14px);
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgba(252, 252, 252, 0.928);
+}
