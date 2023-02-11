@@ -1,4 +1,6 @@
-# PowerGraphEU
+# PowerGraphEU 
+
+### Developed 06.2022
 
 # Description 
 PowerGraphEU is a full-stack web application that allows users to compare the real-time energy production of fossil and renewable energies of all European countries. The project was a study project and was produced through teamwork. The work was divided into the backend and frontend. My part of the work was creating the UI/UX design and implementing the frontend. My team partner took care of the backend development.
