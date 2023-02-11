@@ -21,7 +21,7 @@ The website consists of three different pages.
 - JavaScript
 - Chart JS
 
-### Backend
+## Backend
 
 The backend was developed using Python with the Flask framework, which enables the interface between the frontend and backend. An API request is also made in the backend to receive the data. The data is analyzed in the backend and saved using MongoDB. The entire project was then hosted locally on a Raspberry Pi.
 
