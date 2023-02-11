@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_charts.css">
+</head>
+<body>
+    <nav>
+            
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">DEVICES</a></li>
+            <li><a href="#">ACCOUNT</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="charts">
+            <div class="text-charts">
+                <div class="cart" id="text">
+                    <H1>Choose Youre location</H1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio culpa,      ad   natus eligendi, omnis nisi ipsam minima autem voluptatibus accusantium     voluptate!     Mollitia beatae ipsum ipsam corrupti fugit exercitationem       consequatur nemo.
+                    Consequuntur a eius laudantium laboriosam. Non magni deserunt nesciunt!     Iusto       reprehenderit totam sunt sed aspernatur sit ipsum adipisci  accusantium enim     exercitationem atque in odio ducimus, facilis ratione   officiis! Distinctio,       eligendi.
+                    Sint ad eius aliquid officiis ratione modi aspernatur ea? Est esse,     voluptates      magni neque maxime quae consequuntur quidem blanditiis maiores  ipsa     mollitia     reprehenderit! Iste dolore quod eveniet dolorem,   laudantium eius.</p>
+                    <label for="country">Country 1</label>
+                    <select id="country_one"  onchange="firstUpdateList()">
+                      <option value="none">none</option>
+                      <option value="DE">Germany</option>
+                      <option value="FR">France</option>
+                    </select>
+                    <label for="country">Country 2</label>
+                    <select id="country_two"  onchange="secondUpdateList()">
+                        <option value="none">none</option>
+                        <option value="DE">Germany</option>
+                        <option value="FR">France</option>
+                    </select>
+                    <a href="#" class="button" onclick = 'chart()'>Link Button</a>
+                </div>
+            </div>
+
+            <div class='chart'>
+                <div class="cart-chart" id="text">
+                    
+                    <canvas id="myChart"></canvas>
+                    
+                </div>
+            </div>
+
+        </div>
+        
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="my-chart.js"></script>
+    
+
+
+</body>
+</html>
