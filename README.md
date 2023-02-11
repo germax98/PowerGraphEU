@@ -1,20 +1,18 @@
 # PowerGraphEU
 
-#Description 
-Das PowerGraphEU ist eine Fullstack Webapplication, welche es ermöglicht die aktuelle Energieproduktion von Fossilen und Erneuerbaren Energien aller Europäischen Ländern in Echtzeit miteinander zu vergleichen. Das Projekt war ein Studienprojekt und wurde in Teamarbeit angefertig. 
-Die Arbeit wurde in den Bereich Backend und Frontend aufgeteilt. Mein Teil der Arbeit war das erstellen des UI/UX Design sowie die Umsetzung des Frontends.
-Mein Teampartner übernahm die Entwicklung des Backends.
+# Description 
+PowerGraphEU is a full-stack web application that allows users to compare the real-time energy production of fossil and renewable energies of all European countries. The project was a study project and was produced through teamwork. The work was divided into the backend and frontend. My part of the work was creating the UI/UX design and implementing the frontend. My team partner took care of the backend development.
 
 
 ## Frontend 
 
-Die Website besteht aus drei unterschiedlichen Pages. 
+The website consists of three different pages.
 
-  1. Die Overview besteht aus der aktuellen EnergieProduktion des gewünschten Landes und liefert Daten über die aktuelle erneuerbare und Fossile Energie Produktion des Landes.
+1. The Overview page displays the current energy production of the selected country and provides data on the country's current renewable and fossil energy production.
 
-  2. die Seite Devices konnte aufgrund von Zeitgründen nicht fertig gestellt werden. Es sollte hierbei möglich sein, diverse Geräte anzulegen, um den Ladezyclus der Geräte so zu bestimmen, dass die Verbraucher mit erneuerbarer Energie betrieben werden. 
-  
-  3. Die Seite Charts ermöglicht es dem Nutzer die Europäische Energie Produktion einzelner europäischer Länder miteinander zu vergleichen. Die Daten werden hierbei mithilfe von Chart JS dargestellt.
+2. The Devices page could not be completed due to time constraints. The idea was to create various devices to determine their charging cycle so that they could be powered by renewable energy.
+
+3. The Charts page allows the user to compare the energy production of individual European countries. The data is displayed using Chart JS.
 
 ### Technologies Used:
 
@@ -25,7 +23,7 @@ Die Website besteht aus drei unterschiedlichen Pages.
 
 ### Backend
 
-Das Backend wurde mit Python entwickelt. Hierfür kam das Framework Flask zum einsatz, welches die Schnittstelle zwischen dem Frontend und dem Backend ermöglicht. Es wird außerdem im Backend ein API Request gestellt womit die Daten Empfangen werden. Diese werden im Backend ausgewertet und mithilfe von mongodb abgespeichert. Das gesamte Projekt wurde anschließend auf einem Rasberry pie Lokal gehostet.
+The backend was developed using Python with the Flask framework, which enables the interface between the frontend and backend. An API request is also made in the backend to receive the data. The data is analyzed in the backend and saved using MongoDB. The entire project was then hosted locally on a Raspberry Pi.
 
 ### Technologies Used:
 
