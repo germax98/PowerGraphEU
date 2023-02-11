@@ -11,7 +11,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 
 from pymongo import MongoClient
 
-from secret import mongo_password
+
 from entsoe_definition import *
 
 import parsers
